@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pruning-mbr"
+version = "0.1.0"
+description = ""
+authors = ["Julius Cheng, Andreas Vlachos"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+transformers = "4.35.2"
+datasets = "2.14.7"
+unbabel-comet = "^2.2.0"
+sacrebleu = "^2.4.0"
+sacremoses = "^0.1.1"
+h5py = "^3.10.0"
+pandas = "^2.1.4"
+seaborn = "^0.13.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
